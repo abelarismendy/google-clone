@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.up-bar {
+    height: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+
+
+nav a {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    font-size: .8rem;
+    margin: 0 .5rem;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, .75);
+    text-decoration: underline;
+}
+
+.icon i {
+    color: rgba(0, 0, 0, .5);
+}
+
+nav .icon i:hover {
+    color: #000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.user {
+    height: 32px;
+    width: 32px;
+    margin: 0 .5rem;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.main {
+    justify-content: center;
+    margin-top: -7rem;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-logo {
+    justify-content: center;
+    width: 500px;
+    height: 201px;
+}
+
+.search {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3rem;
+    height: 3rem;
+    width: 36rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.search:hover {
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+    border-color: #fff;
+}
+
+.search i {
+    color: rgba(0, 0, 0, .33);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.search img {
+    height: 1.5rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.search input {
+    height: 2rem;
+    width: 30rem;
+    border: 0;
+    outline: 0;
+}
+
+
+.buttons {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input {
+    background-color: #f2f2f2;
+    height: 2rem;
+    padding: 0 1rem;
+    border: 0;
+    border-radius: .25rem;
+    color: rgba(0, 0, 0, .7);
+    margin: 0 .5rem;
+    cursor: pointer;
+    outline-width: 1px;
+    outline-color: rgba(55, 0, 255, .5);
+}
+
+.buttons input:hover {
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.latam {
+    font-size: .825rem;
+}
+
+footer {
+    align-self: flex-end;
+}
+
+.country {
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    width: 100%;
+    padding: .5rem 2rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.down-bar {
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 35px;
+}
+
+.down-bar ul {
+    display: flex;
+    align-items: center;
+}
+
+.down-bar a {
+    padding: .5rem 1rem;
+    margin: 0;
+}
