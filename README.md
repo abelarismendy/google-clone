@@ -15,7 +15,7 @@ This project was built using the following technologies:
 
 ## Preview
 
-You can view the live version of this project [here](https:/abelarismendy.github.io/google-clone/).
+You can view the live version of this project [here](https://abelarismendy.github.io/google-clone/).
 
 
 
